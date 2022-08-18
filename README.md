@@ -31,7 +31,7 @@
 Faça um clone deste repositório e instale no seu ambiente de desenvolvimento usando o seguinte comando no seu terminal (escolha um diretório apropriado):
 
 ```shell
-git clone https://github.com/aluiziodeveloper/mini-curso-fundamentos-nestjs.git
+git clone https://github.com/PedroCamargo-dev/curso-api-nestjs.git
 ```
 
 Após clonar o conteúdo do repositório, acesse o diretório criado e execute os comandos abaixo para criar e executar os containers da aplicação e do banco de dados PostgreSQL.
