@@ -26,6 +26,28 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Rodando a aplicação no seu PC
+
+Faça um clone deste repositório e instale no seu ambiente de desenvolvimento usando o seguinte comando no seu terminal (escolha um diretório apropriado):
+
+```shell
+git clone https://github.com/aluiziodeveloper/mini-curso-fundamentos-nestjs.git
+```
+
+Após clonar o conteúdo do repositório, acesse o diretório criado e execute os comandos abaixo para criar e executar os containers da aplicação e do banco de dados PostgreSQL.
+
+> IMPORTANTE: Se você for executar esse projeto em PC com Windows, use uma instalação Linux no seu Windows através do WSL.
+
+```shell
+cd mini-curso-fundamentos-nestjs
+
+chmod +x .docker/entrypoint.sh
+
+docker-compose up --build
+```
+
+Após essa instalação a aplicação estará em execução no endereço `http://localhost:3000`.
+
 ## Installation
 
 ```bash
