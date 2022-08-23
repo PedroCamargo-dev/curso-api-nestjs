@@ -1,8 +1,6 @@
-FROM node:16.10.0-alpine3.11
+FROM node:16.15.1
 
-RUN apk add --no-cache bash
-
-RUN npm install -g @nestjs/cli
+#RUN apk add --no-cache bash
 
 USER node
 

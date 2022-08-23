@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 npm intall
 npm run build
