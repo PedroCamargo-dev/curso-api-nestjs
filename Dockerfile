@@ -1,6 +1,4 @@
-FROM node:16.10.0-alpine3.11
-
-RUN apk add --no-cache bash
+FROM node:lts
 
 RUN npm install -g @nestjs/cli
 
